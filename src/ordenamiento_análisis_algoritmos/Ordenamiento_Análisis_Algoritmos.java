@@ -83,7 +83,7 @@ public class Ordenamiento_Análisis_Algoritmos {
                 case 5:
                   Quicksort q= new Quicksort();
                    Arreglo=arreglo();
-                   q.quickSort(Arreglo, Arreglo[0], Arreglo[Arreglo.length]);
+                     q.ordenacionRapida(Arreglo);
                    System.out.println("ORDENAMIENTO QUICKSORT");
                    System.out.println(Arrays.toString(Arreglo));
                    break; 
